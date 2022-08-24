@@ -1,8 +1,10 @@
 #! /usr/bin/env node
-
-import { execSync } from 'child_process';
-import path from 'path';
-import fs from 'fs';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { execSync } = require('child_process');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const fs = require('fs');
 
 if (process.argv.length < 3) {
   console.log('You have to provide a name to your app.');
