@@ -5,7 +5,7 @@
   "author": "chungjung",
   "license": "ISC",
   "bin": {
-    "create-nestjs-hexagonal": "./generate-app.js"
+    "create-nestjs-hexagonal": "./bin/generate-app.js"
   },
   "scripts": {
     "prebuild": "rimraf dist",
