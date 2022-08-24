@@ -5,6 +5,9 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "bin": {
+    "create-nestjs-hexagonal": "./generate-app.js"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
