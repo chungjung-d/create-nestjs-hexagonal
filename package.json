@@ -1,10 +1,10 @@
 {
   "name": "create-nestjs-hexagonal",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "NestJS Boilerplate With hexagonal architecture",
+  "author": "chungjung",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "ISC",
   "bin": {
     "create-nestjs-hexagonal": "./generate-app.js"
   },
