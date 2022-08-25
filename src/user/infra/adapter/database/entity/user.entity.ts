@@ -19,10 +19,6 @@ export class User implements UserType {
   @Column({ type: 'string', unique: true, length: stringLength.SHORT })
   userName: string;
 
-  @Column({
-    type: 'enum',
-    enum: accessLevelType,
-    default: accessLevelType.USER,
-  })
+  @Column()
   accessLevel: accessLevelType;
 }

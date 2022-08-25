@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from './infra/config/database/database.module';
+import { DatabaseModule } from './config/database/database.module';
 import { ConfigModule } from '@nestjs/config';
-import { FactoryInjectModule } from './infra/config/nestjs/factory.inject.module';
-import { ModelInjectModule } from './infra/config/nestjs/model.inject.module';
-import { useCase } from './infra/config/nestjs/usecase.inject';
+import { FactoryInjectModule } from './user/infra/nestjs/factory.inject.module';
+import { ModelInjectModule } from './user/infra/nestjs/model.inject.module';
+import { useCase } from './user/infra/nestjs/usecase.inject';
+import { UserModule } from "./user/user.module";
 
 @Module({
   imports: [
@@ -14,9 +15,7 @@ import { useCase } from './infra/config/nestjs/usecase.inject';
           : '.develop.env',
     }),
     DatabaseModule,
-    FactoryInjectModule,
-    ModelInjectModule,
-    ...useCase,
+    UserModule,
   ],
   controllers: [],
   providers: [],

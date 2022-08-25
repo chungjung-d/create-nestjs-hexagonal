@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { UserFactory } from '../../../application/factory/user.factory';
-import { UserMapper } from '../../../application/mapper/user.mapper';
+import { UserFactory } from '../../application/factory/user.factory';
+import { UserMapper } from '../../application/mapper/user.mapper';
 
 export const USER_MAPPER = 'USER_MAPPER';
 

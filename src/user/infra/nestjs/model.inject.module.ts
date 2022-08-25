@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { UserModel } from '../../../domain/core/model/user.model';
+import { UserModel } from '../../domain/core/model/user.model';
 
 export const USER_MODEL = 'USER_MODEL';
 
