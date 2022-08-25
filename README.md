@@ -46,7 +46,7 @@ $ npm run start:prod
 ----------------------------
 # Construct of functional folder 
 <p>
-    We define the functional folder is implement the backend function which seperated by DDD rules
+We Declare the functional folder is set of implemented the backend function which seperated by DDD rules
 </p>
 <p>
     you can change user folder to other name or add new folder, like product, order. It's only example of this template. I recommend to make folder follow the DDD rule
