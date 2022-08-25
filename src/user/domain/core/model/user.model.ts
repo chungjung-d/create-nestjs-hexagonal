@@ -1,4 +1,4 @@
-import { IModel } from '../../abstract/model';
+import { IModel } from '../../../../abstract/model';
 import { accessLevelType, UserType } from '../type/entity-type/user.type';
 import { AggregateRoot } from '@nestjs/cqrs';
 

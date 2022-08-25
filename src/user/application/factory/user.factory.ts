@@ -1,4 +1,4 @@
-import { IFactory } from '../../domain/abstract/factory';
+import { IFactory } from '../../../abstract/factory';
 import {
   UserModel,
   UserModelPropertyType,

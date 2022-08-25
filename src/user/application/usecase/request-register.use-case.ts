@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { IUseCase } from '../../domain/abstract/use-case';
+import { IUseCase } from '../../../abstract/use-case';
 import { RequestRegisterDTO } from '../../domain/port/controller/dto/auth.dto';
 
 @Injectable()
