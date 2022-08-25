@@ -3,7 +3,7 @@ import {
   accessLevelType,
   UserType,
 } from '../../../../domain/core/type/entity-type/user.type';
-import { stringLength } from '../../../../domain/core/constant/string.length';
+import { stringLength } from '../../../../../config/constant/string.length';
 
 @Entity('user_tb')
 export class User implements UserType {

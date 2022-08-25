@@ -1,6 +1,6 @@
 {
   "name": "create-nestjs-hexagonal",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "NestJS Boilerplate With hexagonal architecture",
   "author": "chungjung",
   "license": "ISC",
