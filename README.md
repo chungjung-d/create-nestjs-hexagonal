@@ -1,4 +1,4 @@
-# Create NestJS Hecagonal & Clean Architecture 
+# Create NestJS Hexagonal & Clean Architecture 
 
 ## Description
 
@@ -93,3 +93,9 @@ $ npm run start:prod
 <p>
     nestjs folder contain dependency injection setting
 </p>
+
+-----------
+
+# To Be Continue 
+- apply CQRS 
+- complete example of user
