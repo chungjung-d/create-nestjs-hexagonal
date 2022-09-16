@@ -26,7 +26,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Folder Structure 
+# Folder Structure 
+
+
+## Global 
+<p>The Global Folder contains global properties like, global used interface, error type, external module configuration and etc..</p>
 
 ### abstract 
 <p>
@@ -42,6 +46,16 @@ $ npm run start:prod
     It also include the constant folder which used globally
 </p>
 
+### Error
+<p>
+    error folder include custom error settings   
+</p>
+
+### Lib
+<p>
+    Lib folder contain the external module custom library which can use the adapter files.
+</p>
+
 
 ----------------------------
 # Construct of functional folder 
@@ -52,50 +66,38 @@ We Declare the functional folder is set of implemented the backend function whic
     you can change user folder to other name or add new folder, like product, order. It's only example of this template. I recommend to make folder follow the DDD rule
 </p>
 <p> 
-    The User folder construct application, domain, infra folder
-</p>
-
-### application 
-<p> 
-    The application folder include business logic implement
+    The User folder construct adaptor, core, port folder
 </p>
 
 ------------
 
-### domain
-<p>
-    The domain folder include core folder & port folder.  
-</p>
-
-#### core 
-<p>
-    Core folder include the model and type
-</p>
-
-#### port
+## Port
 <p>
     port(hexagonal architecture) folder include the port file that expressed interface file
 </p>
 
------------ 
-
-### Infra
-<p>
-    The infra folder include adapter and nestjs injection
-</p>
-
-#### adapter
+## Adapter
 <p>
     adapter is implemented by port interface file. It contains controller, repository and etc
 </p>
 
-#### nestjs
+## Core
 <p>
-    nestjs folder contain dependency injection setting
+    adapter is implemented by port interface file. It contains controller, repository and etc
 </p>
 
------------
+### application
+<p> 
+    The application folder include business logic implement which contain the use-case, factory, mapper files.
+</p>
 
-# To Be Continue 
-- apply CQRS 
-- complete example of user
+
+### domain
+<p>
+    The domain folder include core model logic files
+</p>
+
+### type 
+<p>
+    Type folder include the Core of type like model properties type, etd
+</p>
