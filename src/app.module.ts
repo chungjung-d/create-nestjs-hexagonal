@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from './config/database/database.module';
 import { ConfigModule } from '@nestjs/config';
 import { UserModule } from './user/user.module';
+import { DatabaseConfigModule } from './global/config/database/database.config.module';
 
 @Module({
   imports: [
@@ -11,7 +11,7 @@ import { UserModule } from './user/user.module';
           ? '.production.env'
           : '.develop.env',
     }),
-    DatabaseModule,
+    DatabaseConfigModule,
     UserModule,
   ],
   controllers: [],
