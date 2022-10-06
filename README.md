@@ -83,7 +83,7 @@ We Declare the functional folder is set of implemented the backend function whic
 
 ## Core
 <p>
-    adapter is implemented by port interface file. It contains controller, repository and etc
+    Core is about the core logic of the domain. It contains application , domain, type folder 
 </p>
 
 ### application
